@@ -183,6 +183,7 @@ function New-ReleasePackage([string]$TargetVersion) {
     Copy-Item "target\release\rsnip.exe" $stage -Force
 
     $docs = @(
+      "README.md",
       "docs\behavior.md",
       "docs\architecture-decisions.md",
       "RUST_IMPLEMENTATION_PLAN.md"
