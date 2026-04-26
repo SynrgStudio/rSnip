@@ -1,0 +1,13 @@
+/target/
+/dist/
+/sniptool/
+
+# Agent continuity/session files
+/AUTONOMOUS_EXECUTION.md
+/ACTIVE_QUEUE.md
+/STATE.md
+/RUST_IMPLEMENTATION_PLAN.md
+
+# Local/generated artifacts
+*.log
+*.tmp
